@@ -1,2 +1,4 @@
 github.com/traefik/genconf v0.3.0 h1:jbfouXHWIh8sxtAi2fkDzCl4pciL4lJFx2yazYEFu38=
 github.com/traefik/genconf v0.3.0/go.mod h1:EXoFnMlWXSFiE4Gmbw8WVJYUr4w0XIhN4CTPXY0aiBY=
+golang.org/x/net v0.17.0 h1:pVaXccu2ozPjCXewfr1S7xza/zcXTity9cCdXQYSjIM=
+golang.org/x/net v0.17.0/go.mod h1:NxSsAGuq816PNPmqtQdLE42eU2Fs7NoRIZrHJAlaCOE=
