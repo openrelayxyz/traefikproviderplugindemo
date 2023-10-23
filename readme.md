@@ -37,7 +37,8 @@ go run agent/main.go https://traefikhost:7777
 
 will connect the agent to the traefik plugin. The agent will retrieve information about
 each provider's websocket endpoint from the plugin, subscribe via websockets, and make
-calls to the traefik plugin to notify it of block updates.
+calls to the traefik plugin to notify it of block updates. Traffic will only be served to
+providers with the latest block number available.
 
 In the future we may try to incorporate the agent back into the plugin, but at the moment
 establishing websocket connections via Yaegi is proving difficult.
